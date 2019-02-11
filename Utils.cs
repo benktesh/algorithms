@@ -1,5 +1,8 @@
 
 using System;
+using System.Collections;
+using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 
 namespace algorithms
 {
@@ -14,5 +17,27 @@ namespace algorithms
         
         
         }
+
+        /// <summary>
+        /// Takes string of integer separated by whitespace and returns an array of integer
+        /// Writes error for any exceptions encountered and returns null if that is the case.
+        /// </summary>
+        /// <param name="data"></param>
+        /// <returns></returns>
+        public static int[] PraseToIntArray(String data)
+        {
+            try
+            {
+                return data.Split(new char[] { ' ', '\t' }, StringSplitOptions.RemoveEmptyEntries)
+                    .Select(x => Int32.Parse(x)).ToArray();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("parseToInt: " + ex.StackTrace);
+                return null;
+            }
+
+        }
+
     }
 }
