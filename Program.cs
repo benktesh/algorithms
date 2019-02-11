@@ -10,6 +10,7 @@ namespace algorithms
             /* To test these algorithms, uncomment */
             //SortArraysOfZerosOnes.RunMe();
             //KeyPair.RunMe(); 
+            BinaryMultiple.RunMe();
 
         }
     }

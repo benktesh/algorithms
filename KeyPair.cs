@@ -44,7 +44,7 @@ namespace algorithms
             return "No";
         }
 
-        public static void KeyPair()
+        public static void RunMe()
         {
             //run sum of two items:
             var specs = "42 468";

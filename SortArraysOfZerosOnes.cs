@@ -57,5 +57,15 @@ namespace algorithms
           }
           Console.WriteLine(size);
         }
+
+        public static void RunMe()
+        {
+            //run sortarraysofzeroes
+            var arr = new int[] { 0, 1, 1, 0, 1, 2, 1, 2, 0, 0, 0, 1 };
+            SortArraysOfZerosOnes.Sort(arr);
+            Utilities.PrintArray(arr);
+        }
     }
+
+
 }
