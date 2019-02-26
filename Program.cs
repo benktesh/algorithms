@@ -15,7 +15,8 @@ namespace algorithms
             //StringPermutations.RunMe();
             //LongestPalindrome.RunMe();
             //RemoveDuplciatesRecursively.RunMe();
-            ReverseLinkedList.RunMe();
+            //ReverseLinkedList.RunMe();
+            IdentiticalTree.RunMe();
 
 
         }
