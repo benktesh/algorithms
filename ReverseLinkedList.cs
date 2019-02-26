@@ -12,10 +12,10 @@ namespace algorithms
         {
             LinkedList list = new LinkedList();
             //85 15 4 20
-            list.AddNode(new LinkedList.Node(85));
-            list.AddNode(new LinkedList.Node(15));
-            list.AddNode(new LinkedList.Node(4));
-            list.AddNode(new LinkedList.Node(20));
+            list.AddNode(new LinkedNode(85));
+            list.AddNode(new LinkedNode(15));
+            list.AddNode(new LinkedNode(4));
+            list.AddNode(new LinkedNode(20));
 
             list.Print();
             list.ReverseList();
@@ -24,25 +24,25 @@ namespace algorithms
         }
     }
 
+    public class LinkedNode
+    {
+        public int data;
+        public LinkedNode next;
+
+        public LinkedNode(int d)
+        {
+            data = d;
+            next = null;
+        }
+    }
 
 
     public class LinkedList
     {
-        Node head;
+        LinkedNode head;
 
-        public class Node
-        {
-            public int data;
-            public Node next;
 
-            public Node(int d)
-            {
-                data = d;
-                next = null;
-            }
-        }
-
-        public void AddNode(Node node)
+        public void AddNode(LinkedNode node)
         {
             if (head == null)
                 head = node;
@@ -67,9 +67,9 @@ namespace algorithms
         /// </summary>
         public void ReverseList()
         {
-            Node prev = null;
-            Node current = head;
-            Node next = null;
+            LinkedNode prev = null;
+            LinkedNode current = head;
+            LinkedNode next = null;
             while (current != null)
             {
                 next = current.next;
@@ -83,7 +83,7 @@ namespace algorithms
 
         public void Print()
         {
-            Node current = head;
+            LinkedNode current = head;
             while (current != null)
             {
                 Console.Write(current.data + "->");
