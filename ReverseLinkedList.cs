@@ -12,10 +12,10 @@ namespace algorithms
         {
             LinkedList list = new LinkedList();
             //85 15 4 20
-            list.AddNode(new Node(85));
-            list.AddNode(new Node(15));
-            list.AddNode(new Node(4));
-            list.AddNode(new Node(20));
+            list.AddNode(new LinkedList.Node(85));
+            list.AddNode(new LinkedList.Node(15));
+            list.AddNode(new LinkedList.Node(4));
+            list.AddNode(new LinkedList.Node(20));
 
             list.Print();
             list.ReverseList();
@@ -24,21 +24,23 @@ namespace algorithms
         }
     }
 
-    public class Node
-    {
-        public int data;
-        public Node next;
 
-        public Node(int d)
-        {
-            data = d;
-            next = null;
-        }
-    }
 
     public class LinkedList
     {
         Node head;
+
+        public class Node
+        {
+            public int data;
+            public Node next;
+
+            public Node(int d)
+            {
+                data = d;
+                next = null;
+            }
+        }
 
         public void AddNode(Node node)
         {
