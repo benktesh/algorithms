@@ -9,3 +9,5 @@
 /.vs/algorithms/DesignTimeBuild/.dtbcache
 /.vs/algorithms/v15/.suo
 /algorithms.csproj.user
+/.vs/config
+/bin/Debug/netcoreapp2.2

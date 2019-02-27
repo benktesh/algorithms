@@ -6,6 +6,10 @@ using System.Security.Cryptography.X509Certificates;
 
 namespace algorithms
 {
+    public enum SolutionTypes
+    {
+        Iterative, Recurisve, Unknown
+    }
     public class Utilities {
         public static void PrintArray(int[] arr) {
 

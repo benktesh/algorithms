@@ -6,11 +6,12 @@ namespace algorithms
     {
         
         static void Main(string[] args)
-        { 
+        {
             /* To test these algorithms, uncomment */
             //SortArraysOfZerosOnes.RunMe();
             //KeyPair.RunMe(); 
-            BinaryMultiple.RunMe();
+            //BinaryMultiple.RunMe();
+            MissingNumberInArray.RunMe(); 
 
         }
     }
