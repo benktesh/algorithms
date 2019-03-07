@@ -11,14 +11,25 @@ namespace algorithms
             //SortArraysOfZerosOnes.RunMe();
             //KeyPair.RunMe(); 
             //BinaryMultiple.RunMe();
-            MissingNumberInArray.RunMe(); 
+            //MissingNumberInArray.RunMe();
             //ReverseWords.RunMe();
             //StringPermutations.RunMe();
             //LongestPalindrome.RunMe();
             //RemoveDuplciatesRecursively.RunMe();
             //ReverseLinkedList.RunMe();
             //IdentiticalTree.RunMe();
-            KLeafBinaryTree.RunMe();
+            //KLeafBinaryTree.RunMe();
+            //MultiplicationRecursive.RunMe();
+            //GraphBuidOrder.main(null);
+
+            //new FactorialZeros().RunMe();
+
+            // new NumberMax().RunMe();
+            //new PondSize().RunMe(); 
+            //new PairWithSum().RunMe();
+            //new LRUCache().RunMe();
+            //new AddWithoutPlus().RunMe();
+            new MajorityElement().RunMe(); 
 
 
         }
