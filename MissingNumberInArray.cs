@@ -19,6 +19,21 @@ namespace algorithms
      */
     public class MissingNumberInArray
     {
+        public static int FindMissingHash(int[] arr, int N)
+        {
+            HashSet<int> map = new HashSet<int>(arr);
+
+            for (int i = 1; i <= N; i++)
+            {
+                if (!map.Contains(i))
+                {
+                    return i;
+                }
+            }
+
+            return -1;
+
+        }
         public static int FindMissing(int [] arr, int flag = 0)
         {
 
@@ -70,10 +85,13 @@ namespace algorithms
             //Input: arr[] = [1, 2, 3, 4, 5, 6, 8, 9]
             //Output: 7
             var arrs = "1 2 3 4 5 6 8 9";
+            int size = 2;
+            arrs = "1";
             var arr = Utilities.PraseToIntArray(arrs);
 
-
-            Console.WriteLine(FindMissing(arr)); 
+            
+            //Console.WriteLine(FindMissing(arr));
+            Console.WriteLine(FindMissingHash(arr,2));
         }
     }
 }

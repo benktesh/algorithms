@@ -55,7 +55,7 @@ namespace algorithms
                     break;
               }
           }
-          Console.WriteLine(size);
+          Console.WriteLine(String.Join(' ', arr));
         }
 
         public static void RunMe()
