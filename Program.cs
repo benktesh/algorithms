@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using algorithms.BitManipulation;
 
 namespace algorithms
 {
@@ -11,7 +12,7 @@ namespace algorithms
             /* To test these algorithms, uncomment */
             //SortArraysOfZerosOnes.RunMe();
             //KeyPair.RunMe(); 
-            BinaryMultiple.RunMe();
+            //BinaryMultiple.RunMe();
             //MissingNumberInArray.RunMe();
             //ReverseWords.RunMe();
             //StringPermutations.RunMe();
@@ -34,14 +35,19 @@ namespace algorithms
             //new EquilibriumPoint().Run();
             //new SumLinkedList().Run();
            // new CheckBST().Run();
-           new SumSet().Run();
+           //new SumSet().Run();
             //new PairWithSum().RunMe();
             //new LRUCache().RunMe();
             //new AddWithoutPlus().RunMe();
             //new MajorityElement().RunMe(); 
             //new ValidateBST().Run(); 
             //new FindNextInBST().Run(); 
-            new CommonAncestor().Run(); 
+            //new CommonAncestor().Run(); 
+           // new BstSequence().Run();
+           //new PathWithSum().Run();
+           //new Insertion().Run();
+           //new BinaryToString().Run(); 
+           new FlipBit().Run(); 
         }
 
         /* This is template for making test cases **/

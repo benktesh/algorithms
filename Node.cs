@@ -2,13 +2,18 @@
 {
     public class Node
     {
-        public int data;
-        public Node left, right;
+        public Node Left;
+        public Node Right;
+        public int Data;
 
-        public Node(int item)
+        public Node(int data)
         {
-            data = item;
-            left = right = null;
+            Data = data;
+        }
+
+        public override string ToString()
+        {
+            return Data.ToString();
         }
     }
 }

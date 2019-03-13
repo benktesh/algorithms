@@ -49,13 +49,13 @@ namespace algorithms
                 {
                     mid = (low + high) / 2;
 
-                    //check if the difference is to the right of the mid
+                    //check if the difference is to the Right of the mid
                     if(mid+1 < size && arr[mid+1] - arr[mid] != diff)
                     {
                         return arr[mid + 1] - diff;
                     }
 
-                    //check if the difference is to the left of the mid
+                    //check if the difference is to the Left of the mid
                     if (mid - 1 >= 0 && arr[mid] - arr[mid-1] != diff)
                     {
                         return arr[mid - 1] + diff;

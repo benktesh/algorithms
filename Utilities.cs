@@ -10,7 +10,7 @@ namespace algorithms
     {
         Iterative, Recurisve, Unknown
     }
-    public class Utilities {
+    public static class Utilities {
         public static void PrintArray(int[] arr) {
 
             foreach (var item in arr)
@@ -20,6 +20,11 @@ namespace algorithms
             Console.WriteLine(" ");
         
         
+        }
+
+        public static String GetBitString(int x)
+        {
+            return Convert.ToString(x, 2).PadLeft(32, '0');
         }
 
         /// <summary>
@@ -57,6 +62,8 @@ namespace algorithms
 
             }
         }
+
+       
 
     }
 }
