@@ -29,7 +29,8 @@ namespace algorithms
             //new PairWithSum().RunMe();
             //new LRUCache().RunMe();
             //new AddWithoutPlus().RunMe();
-            new MajorityElement().RunMe(); 
+            //new MajorityElement().RunMe(); 
+            new ValidateBST().Run(); 
 
 
         }
