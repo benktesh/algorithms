@@ -30,7 +30,8 @@ namespace algorithms
             //new LRUCache().RunMe();
             //new AddWithoutPlus().RunMe();
             //new MajorityElement().RunMe(); 
-            new ValidateBST().Run(); 
+            //new ValidateBST().Run(); 
+            new FindNextInBST().Run(); 
 
 
         }
