@@ -4,6 +4,8 @@ using System.Text;
 
 namespace algorithms
 {
+    //this class implements a function to validate if a tree is BST is not. 
+    //In addition, tree traversal is demonstrated by an example. 
     public class ValidateBST
     {
 
