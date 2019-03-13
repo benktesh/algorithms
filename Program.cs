@@ -31,7 +31,8 @@ namespace algorithms
             //new AddWithoutPlus().RunMe();
             //new MajorityElement().RunMe(); 
             //new ValidateBST().Run(); 
-            new FindNextInBST().Run(); 
+            //new FindNextInBST().Run(); 
+            new CommonAncestor().Run(); 
 
 
         }
