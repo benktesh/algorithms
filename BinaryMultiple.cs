@@ -11,6 +11,46 @@ namespace algorithms
      */
     class BinaryMultiple
     {
+        public static int IsMultiple3Bit(int n)
+        {
+            int oddCount = 0;
+            int evenCount = 0;
+
+            if (n < 0)
+            {
+                n = -n;
+            }
+
+            if (n == 0)
+            {
+                return 1;
+            }
+
+            if (n <= 2)
+            {
+                return 0;
+            }
+
+            while (n != 0)
+            {
+                if ((n & 1) != 0)
+                {
+                    oddCount++;
+                }
+
+                n = n >> 1;
+
+                if ((n & 1) != 0)
+                {
+                    evenCount++;
+                }
+
+                n = n >> 1;
+            }
+
+            return IsMultiple3Bit(Math.Abs(oddCount - evenCount));
+        }
+
         public static void CheckMultiple3(char[] c)
         {
             int size = c.Length; 
@@ -56,8 +96,10 @@ namespace algorithms
 
         public static void RunMe()
         {
-            CheckMultiple3(ParseInput("0 1 1"));
-            CheckMultiple3(ParseInput("1 0 0"));
+            //CheckMultiple3(ParseInput("0 1 1"));
+            //CheckMultiple3(ParseInput("1 0 0"));
+
+            Console.WriteLine(IsMultiple3Bit(24) == 1 ? "True" : "False");
         }
 
     }

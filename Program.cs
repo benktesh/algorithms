@@ -11,7 +11,7 @@ namespace algorithms
             /* To test these algorithms, uncomment */
             //SortArraysOfZerosOnes.RunMe();
             //KeyPair.RunMe(); 
-            //BinaryMultiple.RunMe();
+            BinaryMultiple.RunMe();
             //MissingNumberInArray.RunMe();
             //ReverseWords.RunMe();
             //StringPermutations.RunMe();
@@ -20,6 +20,7 @@ namespace algorithms
             //ReverseLinkedList.RunMe();
             //IdentiticalTree.RunMe();
             //KLeafBinaryTree.RunMe();
+           //new SumSet().Run();
             //MultiplicationRecursive.RunMe();
             //GraphBuidOrder.main(null);
 
