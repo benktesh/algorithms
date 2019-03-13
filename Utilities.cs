@@ -22,9 +22,32 @@ namespace algorithms
         
         }
 
-        public static String GetBitString(int x)
+        public static String GetBitString(Int32 x)
         {
             return Convert.ToString(x, 2).PadLeft(32, '0');
+        }
+
+        public static String GetBitString(long x)
+        {
+            return Convert.ToString(x, 2).PadLeft(32, '0');
+        }
+
+        public static void PrintBitString(int x, string label = null)
+        {
+            if (!string.IsNullOrEmpty(label))
+            {
+                Console.WriteLine(label);
+            }
+            Console.WriteLine(GetBitString(x));
+        }
+
+        public static void PrintBitString(long x, String label=null)
+        {
+            if (!string.IsNullOrEmpty(label))
+            {
+                Console.WriteLine(label);
+            }
+            Console.WriteLine(GetBitString(x));
         }
 
         /// <summary>

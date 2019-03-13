@@ -21,7 +21,7 @@ namespace algorithms
             //ReverseLinkedList.RunMe();
             //IdentiticalTree.RunMe();
             //KLeafBinaryTree.RunMe();
-           //new SumSet().Run();
+            //new SumSet().Run();
             //MultiplicationRecursive.RunMe();
             //GraphBuidOrder.main(null);
 
@@ -34,8 +34,8 @@ namespace algorithms
             //new SubArraySum().Run();
             //new EquilibriumPoint().Run();
             //new SumLinkedList().Run();
-           // new CheckBST().Run();
-           //new SumSet().Run();
+            // new CheckBST().Run();
+            //new SumSet().Run();
             //new PairWithSum().RunMe();
             //new LRUCache().RunMe();
             //new AddWithoutPlus().RunMe();
@@ -43,11 +43,12 @@ namespace algorithms
             //new ValidateBST().Run(); 
             //new FindNextInBST().Run(); 
             //new CommonAncestor().Run(); 
-           // new BstSequence().Run();
-           //new PathWithSum().Run();
-           //new Insertion().Run();
-           //new BinaryToString().Run(); 
-           new FlipBit().Run(); 
+            // new BstSequence().Run();
+            //new PathWithSum().Run();
+            //new Insertion().Run();
+            //new BinaryToString().Run(); 
+            //new FlipBit().Run(); 
+            new SwapBits().Run(); 
         }
 
         /* This is template for making test cases **/
