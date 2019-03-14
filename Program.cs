@@ -49,7 +49,9 @@ namespace algorithms
             //new BinaryToString().Run(); 
            //new FlipBit().Run(); 
            //new DeckOfCards().Run();
-           new CircularArrayEnumerable().Run();
+           //new CircularArrayEnumerable().Run();
+
+           new NextNumber().Run();
         }
 
         /* This is template for making test cases **/

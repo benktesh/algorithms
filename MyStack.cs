@@ -3,7 +3,7 @@
 namespace algorithms
 {
 
-    public class MyStack<T> where T : class
+    public class MyStack<T>
     {
         int stackTop = 0;
         T[] items = new T[100];
