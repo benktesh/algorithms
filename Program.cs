@@ -47,7 +47,8 @@ namespace algorithms
            //new PathWithSum().Run();
            //new Insertion().Run();
            //new BinaryToString().Run(); 
-           new FlipBit().Run(); 
+           //new FlipBit().Run(); 
+           new DeckOfCards().Run();
         }
 
         /* This is template for making test cases **/
