@@ -48,7 +48,8 @@ namespace algorithms
             //new Insertion().Run();
             //new BinaryToString().Run(); 
             //new FlipBit().Run(); 
-            new SwapBits().Run(); 
+            //new SwapBits().Run();
+            new DrawLine().Run();
         }
 
         /* This is template for making test cases **/
