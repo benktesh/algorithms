@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{C658C595-B8FC-4550-BED5-59E38F85E679}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Random5_7.cs">
+    <Files>
+      <File FileName="Program.cs" Line="25" Column="1" />
+      <File FileName="LongestPalindrome.cs" Line="1" Column="1" />
+      <File FileName="KLeafBinaryTree.cs" Line="43" Column="43" />
+      <File FileName="BinaryTree.cs" Line="7" Column="2" />
+      <File FileName="Random5_7.cs" Line="18" Column="24" />
+      <File FileName="MergeArray.cs" Line="49" Column="36" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.algorithms PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/utia/Documents/algorithms/ReverseLinkedList.cs" relfile="ReverseLinkedList.cs" line="24" column="1" />
+      <Breakpoint file="/Users/utia/Documents/algorithms/ReverseLinkedList.cs" relfile="ReverseLinkedList.cs" line="22" column="17" />
+      <Breakpoint file="/Users/utia/Documents/algorithms/Program.cs" relfile="Program.cs" line="25" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
