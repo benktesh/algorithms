@@ -64,8 +64,9 @@ namespace algorithms
             //new StringRotation().Run();
             //new FindNearestSmallerLeftElement().Run();
             //new MaxIndexDiff().Run();
-           // new TopologicalSort().Run();
-           // new LRU().Run();
+            // new TopologicalSort().Run();
+            // new LRU().Run();
+            new LongestValidSubstring().Run();
         }
 
         /* This is template for making test cases **/
