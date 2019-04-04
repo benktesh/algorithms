@@ -1,8 +1,6 @@
 
 using System;
-using System.Collections;
 using System.Linq;
-using System.Security.Cryptography.X509Certificates;
 
 namespace algorithms
 {
@@ -60,7 +58,7 @@ namespace algorithms
         {
             try
             {
-                return data.Split(new char[] { ' ', '\t' }, StringSplitOptions.RemoveEmptyEntries)
+                return data.Split(new[] { ' ', '\t' }, StringSplitOptions.RemoveEmptyEntries)
                     .Select(x => Int32.Parse(x)).ToArray();
             }
             catch (Exception ex)

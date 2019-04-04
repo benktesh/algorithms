@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using System.Text.RegularExpressions;
 using algorithms.BitManipulation;
 
 namespace algorithms
@@ -51,7 +52,13 @@ namespace algorithms
            //new DeckOfCards().Run();
            //new CircularArrayEnumerable().Run();
 
-           new NextNumber().Run();
+        
+
+
+          // new NextNumber().Run();
+          //new MaxTreeHeight().Run();
+          //new PrintNodeKDistance().Run();
+          new DifferencSumOddEvenLevel().Run();
         }
 
         /* This is template for making test cases **/
