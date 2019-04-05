@@ -66,7 +66,9 @@ namespace algorithms
             //new MaxIndexDiff().Run();
             // new TopologicalSort().Run();
             // new LRU().Run();
-            new LongestValidSubstring().Run();
+            //new LongestValidSubstring().Run();
+            //new AllocateNumberOfPages().Run();
+            new SumToValue().Run();
         }
 
         /* This is template for making test cases **/
@@ -118,6 +120,4 @@ namespace algorithms
             }
         }
     }
-
-  
 }
