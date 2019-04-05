@@ -84,7 +84,20 @@ namespace algorithms
             }
         }
 
-       
+        public static void PrintArray(int[,] data)
+        {
+            int n = data.GetLength(0);
+            int c = data.GetLength(1);
 
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = 0; j < c; j++)
+                {
+                    Console.Write(data[i, j] + " ");
+                }
+                Console.WriteLine("");
+            }
+            Console.WriteLine("");
+        }
     }
 }
