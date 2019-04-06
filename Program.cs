@@ -71,6 +71,11 @@ namespace algorithms
             //new CountWords().Run();
             //new ArrangeElements().Run();
             new StringTransformation().Run();
+            // new TopologicalSort().Run();
+            // new LRU().Run();
+            //new LongestValidSubstring().Run();
+            //new AllocateNumberOfPages().Run();
+            new SumToValue().Run();
 
 
 

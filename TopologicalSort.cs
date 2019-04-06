@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 
@@ -47,6 +48,40 @@ namespace algorithms
                 var visited = new bool[V];
 
                 DFSUtil(v, visited);
+            }
+
+            private void TopologicalSortUtil(int v, bool[] visited, Stack stack)
+            {
+                visited[v] = true;
+                var i = Adj[v].GetEnumerator();
+                while (i.MoveNext())
+                {
+                    var cur = i.Current;
+                    if (!visited[cur])
+                    {
+                        TopologicalSortUtil(cur, visited, stack);
+                    }
+                }
+                stack.Push(v);
+            }
+
+            public void ToplogicalSort()
+            {
+                var stack = new Stack();
+                var visited = new bool[V];
+
+                for (int i = 0; i < V; i++)
+                {
+                    if (!visited[i])
+                    {
+                        TopologicalSortUtil(i, visited, stack);
+                    }
+                }
+
+                while (stack.Count > 0)
+                {
+                    Console.Write($"{stack.Pop()} ");
+                }
             }
 
             public void BFS(int v)
@@ -100,6 +135,21 @@ namespace algorithms
 
             Console.WriteLine("Working on BFS: ");
             g.BFS(2);
+            Console.WriteLine();
+
+            Console.WriteLine("Working on Topoligical Sort: ");
+
+            g = new Graph(6);
+            g.AddEdge(5, 2);
+            g.AddEdge(5, 0);
+            g.AddEdge(4, 0);
+            g.AddEdge(4, 1);
+            g.AddEdge(2, 3);
+            g.AddEdge(3, 1);
+
+            Console.WriteLine("BFS");
+            g.DFS(5);
+            g.ToplogicalSort();
             Console.WriteLine();
         }
     }
