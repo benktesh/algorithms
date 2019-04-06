@@ -70,8 +70,11 @@ namespace algorithms
             //new BooleanMatrixQuestion().Run();
             //new CountWords().Run();
             //new ArrangeElements().Run();
+            new StringTransformation().Run();
 
-            
+
+
+
         }
 
         /* This is template for making test cases **/
