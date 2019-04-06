@@ -115,5 +115,46 @@ namespace algorithms
             }
             Console.WriteLine("");
         }
+
+        public static void PrintArray(int[,] data, String[] xHeader, String[] yHeader)
+        {
+            int n = data.GetLength(0);
+            int c = data.GetLength(1);
+
+            int padLength = 6;
+
+
+            var rowHeader = "".PadRight(padLength, ' ') + "|";
+            Console.Write(rowHeader);
+            int count = rowHeader.Length;
+            for (int j = 0; j < c; j++)
+            {
+                var colIndex = yHeader[j].ToString().PadRight(padLength, ' ');
+                count += colIndex.Length;
+                Console.Write(colIndex);
+            }
+            Console.WriteLine();
+            Console.WriteLine(new String('-', count));
+            for (int i = 0; i < n; i++)
+            {
+                Console.Write(xHeader[i].ToString().PadRight(padLength, ' ') + "|");
+                for (int j = 0; j < c; j++)
+                {
+                    Console.Write(data[i, j].ToString().PadRight(padLength, ' '));
+                }
+                Console.WriteLine("");
+            }
+            Console.WriteLine("");
+        }
+
+        public static void PrintArray(String[] data, String header = null)
+        {
+            if (header != null)
+            {
+                Console.WriteLine(header);
+            }
+
+            Console.WriteLine(string.Join(' ', data));
+        }
     }
 }

@@ -70,12 +70,17 @@ namespace algorithms
             //new BooleanMatrixQuestion().Run();
             //new CountWords().Run();
             //new ArrangeElements().Run();
-            new StringTransformation().Run();
+            //new StringTransformation().Run();
             // new TopologicalSort().Run();
             // new LRU().Run();
             //new LongestValidSubstring().Run();
             //new AllocateNumberOfPages().Run();
-            new SumToValue().Run();
+            //new SumToValue().Run();
+            //new RodCutting().Run();
+            //new LongestCommonSubsequence().Run();
+            //new GCD().Run();
+            //new ActiveInActiveCell().Run();
+            new Dijkstra().Run();
 
 
 
