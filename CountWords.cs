@@ -22,31 +22,34 @@ namespace algorithms
     public class CountWords
     {
 
-        public void CountTwice(string[] arr)
+        public List<String> CountTwice(string[] arr)
         {
-            List<String> result = new List<string>();
 
-            Dictionary<string, int> data = new Dictionary<string, int>();
-            foreach (var elem in arr)
+            var result = new List<String>();
+            var map = new Dictionary<String, int>();
+            foreach (var a in arr)
             {
-                if (data.ContainsKey(elem))
+                if (map.ContainsKey(a))
                 {
-                    data[elem] = data[elem] + 1; 
+                    map[a] = map[a] + 1;
                 }
                 else
                 {
-                    data.Add(elem, 1);
+                    map[a] = 1; 
                 }
+                
             }
 
-            foreach (var d in data)
+            foreach (var d in map)
             {
                 if (d.Value == 2)
                 {
-                    Console.Write(d.Key + " ");
+                    result.Add(d.Key);
                 }
             }
-            Console.WriteLine();
+
+            Console.WriteLine(string.Join(' ', result.ToArray()));
+            return result;
         }
         public void Run()
         {

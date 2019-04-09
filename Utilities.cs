@@ -9,7 +9,14 @@ namespace algorithms
     {
         Iterative, Recurisve, Unknown
     }
+
+    public enum Color
+    {
+        WHITE, GREY, BLACK
+    }
     public static class Utilities {
+
+
         public static void PrintArray(int[] arr) {
 
             foreach (var item in arr)

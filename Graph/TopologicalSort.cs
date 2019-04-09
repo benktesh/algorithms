@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Text;
 
-namespace algorithms
+namespace Algorithms.Graph
 {
     public class TopologicalSort
     {
+
         public class Graph
         {
             private int V; //no of verticies
@@ -108,6 +108,8 @@ namespace algorithms
                     }
                 }
             }
+
+
         }
 
         public void Run()

@@ -7,7 +7,7 @@ using System.Text;
 namespace algorithms
 {
     /*
-     * Circular Array: Implement a C i r c u l a r A r r a y class that supports an array-like data structure which
+     * Circular Array: Implement a CircularArray class that supports an array-like data structure which
        can be efficiently rotated. If possible, the class should use a generic type (also called a template), and
        should support iteration via the standard for (Obj o : c i r c u l a r A r r a y ) notation
      */

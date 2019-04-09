@@ -47,7 +47,7 @@ namespace algorithms
             return _dependencies;
         }
     }
-    public class Graph
+    class Graph
     {
         private IList<Project> nodes = new List<Project>();
         private IDictionary<String, Project> _map = new Dictionary<string, Project>();

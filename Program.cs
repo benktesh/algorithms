@@ -6,6 +6,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Text.RegularExpressions;
 using algorithms.BitManipulation;
+using Algorithms.Graph;
 
 namespace algorithms
 {
@@ -80,7 +81,11 @@ namespace algorithms
             //new LongestCommonSubsequence().Run();
             //new GCD().Run();
             //new ActiveInActiveCell().Run();
-            new Dijkstra().Run();
+            //new Dijkstra().Run();
+
+            //var x = MaxHeap();
+            //new MedianStreaming().Run();
+            new Algorithms.Graph.Graph().Run();
 
 
 
