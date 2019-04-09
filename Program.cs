@@ -6,6 +6,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Text.RegularExpressions;
 using algorithms.BitManipulation;
+using Algorithms;
 using Algorithms.Graph;
 
 namespace algorithms
@@ -85,7 +86,8 @@ namespace algorithms
 
             //var x = MaxHeap();
             //new MedianStreaming().Run();
-            new Algorithms.Graph.Graph().Run();
+            //new Algorithms.Graph.Graph().Run();
+            new AssignmentOfObjects().Run();
 
 
 
