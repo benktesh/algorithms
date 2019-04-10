@@ -88,7 +88,8 @@ namespace algorithms
             //new MedianStreaming().Run();
             //new Algorithms.Graph.Graph().Run();
            // new AssignmentOfObjects().Run();
-            new KnapSackUnbounded().Run();
+            //new KnapSackUnbounded().Run();
+            new MergeOverlappingInterval().Run();
 
 
 
