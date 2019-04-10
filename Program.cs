@@ -87,7 +87,8 @@ namespace algorithms
             //var x = MaxHeap();
             //new MedianStreaming().Run();
             //new Algorithms.Graph.Graph().Run();
-            new AssignmentOfObjects().Run();
+           // new AssignmentOfObjects().Run();
+            new KnapSackUnbounded().Run();
 
 
 

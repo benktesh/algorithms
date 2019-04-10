@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Reflection.Metadata;
-using System.Text;
 
 namespace Algorithms
 {
 
-    //A list of users and bikes. Location is known. Assign users to bike. 
+    //A list of users and bikes. Location is known. Assign users to bike.
     public class AssignmentOfObjects
     {
         public class Location
@@ -54,8 +52,6 @@ namespace Algorithms
 
         }
 
-
-
         public void Run()
         {
             var users = new List<User>
@@ -73,12 +69,16 @@ namespace Algorithms
                 new Bike(1, new Location(0, 2)),
                 new Bike(2, new Location(1, 1)),
                 new Bike(3, new Location(2, 0)),
-        
 
             };
 
-            Assign(users, bikes);
+            var assignment = Assign(users, bikes);
+            foreach (var ass in assignment)
+            {
+                Console.WriteLine($"Bike {ass.Bike.Id} Assigned To => User {ass.User.Id} (at Distance {ass.Distance})");
+            }
         }
+
 
         public class UserAssignment
         {
@@ -94,18 +94,22 @@ namespace Algorithms
             }
         }
 
-        private void Assign(List<User> users, List<Bike> bikes)
+        //assumption - no two users are at equal distance from bike
+        //assumption - no two bikes are at equal distance from one user
+        private List<UserAssignment> Assign(List<User> users, List<Bike> bikes)
         {
 
             var list = new List<UserAssignment>();
+            HashSet<User> map = new HashSet<User>();
             foreach (var b in bikes)
             {
                 var curDistance = Double.MaxValue;
                 var curUser = users[0];
                 foreach (var u in users)
                 {
+                    if (map.Contains(u))
+                        continue;
                     var tempD = b.Location.GetDistance(u.Location);
-                    
                     if (tempD < curDistance)
                     {
                         curDistance = tempD;
@@ -113,8 +117,9 @@ namespace Algorithms
                     }
                 }
                 list.Add(new UserAssignment(curUser, b, curDistance));
+                map.Add(curUser);
             }
-
+            return list;
         }
     }
 }
