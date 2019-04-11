@@ -6,6 +6,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Text.RegularExpressions;
 using algorithms.BitManipulation;
+using Algorithms;
 using Algorithms.Graph;
 
 namespace algorithms
@@ -74,7 +75,7 @@ namespace algorithms
             //new StringTransformation().Run();
             // new TopologicalSort().Run();
             // new LRU().Run();
-            //new LongestValidSubstring().Run();
+           // new LongestValidSubstring().Run();
             //new AllocateNumberOfPages().Run();
             //new SumToValue().Run();
             //new RodCutting().Run();
@@ -85,7 +86,12 @@ namespace algorithms
 
             //var x = MaxHeap();
             //new MedianStreaming().Run();
-            new Algorithms.Graph.Graph().Run();
+            //new Algorithms.Graph.Graph().Run();
+            //new WordBreak().Run();
+            //new NonRepeatingElements().Run();
+            //new ConnectNodeSameLevel().Run();
+           //new SubArraySum().Run();
+           new CountBSTNode().Run();
 
 
 
@@ -134,8 +140,12 @@ namespace algorithms
                 }
 
                 var rawinput = Console.ReadLine();
-                var data = rawinput.Split(new char[] { ' ', '\t' }, StringSplitOptions.RemoveEmptyEntries)
-                    .Select(x => Int32.Parse(x)).ToArray();
+                var data = rawinput.Split(new char[] { ' ', '\t' }, StringSplitOptions.RemoveEmptyEntries);
+
+
+                //var rawinput = Console.ReadLine();
+               // var data = rawinput.Split(new char[] { ' ', '\t' }, StringSplitOptions.RemoveEmptyEntries)
+               //     .Select(x => Int32.Parse(x)).ToArray();
                 //Console.WriteLine(FindMissingHash(data, size));
                 //call the process 
             }
