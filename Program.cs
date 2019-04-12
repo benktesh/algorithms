@@ -90,6 +90,9 @@ namespace algorithms
             //new WordBreak().Run();
             //new NonRepeatingElements().Run();
             //new ConnectNodeSameLevel().Run();
+           // new AssignmentOfObjects().Run();
+            //new KnapSackUnbounded().Run();
+            new MergeOverlappingInterval().Run();
            //new SubArraySum().Run();
            new CountBSTNode().Run();
 
