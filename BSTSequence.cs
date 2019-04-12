@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace algorithms
+namespace Algorithms
 {
     public class BstSequence
     {

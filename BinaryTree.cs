@@ -1,4 +1,4 @@
-﻿namespace algorithms
+﻿namespace Algorithms
 {
     public class BinaryTree
     {
