@@ -92,9 +92,11 @@ namespace algorithms
             //new ConnectNodeSameLevel().Run();
            // new AssignmentOfObjects().Run();
             //new KnapSackUnbounded().Run();
-            new MergeOverlappingInterval().Run();
+            //new MergeOverlappingInterval().Run();
            //new SubArraySum().Run();
-           new CountBSTNode().Run();
+           //new CountBSTNode().Run();
+           //new BinaryTreeSumTree().Run();
+           new NumberExpressedAsPower().Run();
 
 
 
