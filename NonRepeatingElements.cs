@@ -10,9 +10,12 @@ namespace Algorithms
     /// </summary>
     public class NonRepeatingElements
     {
-
+        
         public int[] GetNonRepeating(int[] arr)
         {
+
+            var queue = new Queue<int>();
+            
             var map = new HashSet<int>();
             foreach (var x in arr)
             {
