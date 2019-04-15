@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Runtime.InteropServices.WindowsRuntime;
 using System.Text;
+using algorithms;
 
 namespace Algorithms
 {
@@ -53,10 +54,9 @@ namespace Algorithms
 
 
             var length = RemoveDuplicate(nums);
-            for (int i = 0; i < length; i++)
-            {
-                Console.Write(nums[i] + " ");
-            }
+            Utilities.PrintArray(nums, length);
         }
+
+        
     }
 }

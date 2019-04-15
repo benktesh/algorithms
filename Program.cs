@@ -99,7 +99,9 @@ namespace algorithms
            //new NumberExpressedAsPower().Run();
            //new AddTwoNumbers().Run();
            //new MedianTwoSortedArrays().Run();
-           new RemoveDuplicates().Run();
+           //new RemoveDuplicates().Run();
+           //new RemoveElements().Run();
+           new RemoveLinkedListElements().Run();
 
 
 
