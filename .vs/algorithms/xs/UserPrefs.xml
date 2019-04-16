@@ -1,15 +1,17 @@
 ﻿<Properties StartupConfiguration="{C658C595-B8FC-4550-BED5-59E38F85E679}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Random5_7.cs">
+  <MonoDevelop.Ide.ItemProperties.Algorithms PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Program.cs" Line="25" Column="1" />
+      <File FileName="Program.cs" Line="1" Column="1" />
       <File FileName="LongestPalindrome.cs" Line="1" Column="1" />
-      <File FileName="KLeafBinaryTree.cs" Line="43" Column="43" />
+      <File FileName="KLeafBinaryTree.cs" Line="1" Column="1" />
       <File FileName="BinaryTree.cs" Line="7" Column="2" />
-      <File FileName="Random5_7.cs" Line="18" Column="24" />
-      <File FileName="MergeArray.cs" Line="49" Column="36" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>../UnitTestProject1/UnitTestProject1.csproj</String>
+  </DisabledProjects>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.algorithms PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

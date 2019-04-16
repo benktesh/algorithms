@@ -11,3 +11,8 @@
 /algorithms.csproj.user
 /.vs/config
 /bin/Debug/netcoreapp2.2
+.vs/algorithms/xs/sqlite3/db.lock
+.vs/algorithms/xs/sqlite3/storage.ide
+.vs/algorithms/xs/sqlite3/storage.ide-shm
+.vs/algorithms/xs/sqlite3/storage.ide-wal
+.vs/algorithms/xs/UserPrefs.xml
