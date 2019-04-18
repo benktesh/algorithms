@@ -6,6 +6,8 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Text.RegularExpressions;
 using algorithms.BitManipulation;
+using Algorithms;
+using Algorithms.Graph;
 
 namespace algorithms
 {
@@ -66,27 +68,60 @@ namespace algorithms
             //new StringRotation().Run();
             //new FindNearestSmallerLeftElement().Run();
             //new MaxIndexDiff().Run();
-<<<<<<< HEAD
             //new TopologicalSort().Run();
             //new BooleanMatrixQuestion().Run();
             //new CountWords().Run();
             //new ArrangeElements().Run();
-            new StringTransformation().Run();
-
-
-
-
-=======
+            //new StringTransformation().Run();
             // new TopologicalSort().Run();
             // new LRU().Run();
-            //new LongestValidSubstring().Run();
+            // new LongestValidSubstring().Run();
             //new AllocateNumberOfPages().Run();
-            new SumToValue().Run();
->>>>>>> origin/master-O
+            //new SumToValue().Run();
+            //new RodCutting().Run();
+            //new LongestCommonSubsequence().Run();
+            //new GCD().Run();
+            //new ActiveInActiveCell().Run();
+            //new Dijkstra().Run();
+
+            //var x = MaxHeap();
+            //new MedianStreaming().Run();
+            //new Algorithms.Graph.Graph().Run();
+            //new WordBreak().Run();
+            //new NonRepeatingElements().Run();
+            //new ConnectNodeSameLevel().Run();
+            // new AssignmentOfObjects().Run();
+            //new KnapSackUnbounded().Run();
+            //new MergeOverlappingInterval().Run();
+            //new SubArraySum().Run();
+            //new CountBSTNode().Run();
+            //new BinaryTreeSumTree().Run();
+           //new NumberExpressedAsPower().Run();
+           //new AddTwoNumbers().Run();
+            //new NumberExpressedAsPower().Run();
+            //new DivideTwoIntegers().Run();
+           //new MedianTwoSortedArrays().Run();
+           //new RemoveDuplicates().Run();
+           //new RemoveElements().Run();
+           //new RemoveLinkedListElements().Run();
+           new LengthOfLongestSubstring().Run();
+           //Convert.ToInt32()
+
+<<<<<<< HEAD
+=======
+            //Convert.ToInt32()
+
+            //new LengthOfLongestSubstring().Run();
+            //new Subset().Run();
+            new SecondLargestBST().Run();
+
+
+>>>>>>> 844b042fc3dd21429bb8959738410f7e03521bc8
+
         }
 
-        /* This is template for making test cases **/
-        static void Template()
+    /* This is template for making test cases **/
+    static void Template()
         {
             var first = Console.ReadLine();
             int tests = 0;
@@ -127,8 +162,12 @@ namespace algorithms
                 }
 
                 var rawinput = Console.ReadLine();
-                var data = rawinput.Split(new char[] { ' ', '\t' }, StringSplitOptions.RemoveEmptyEntries)
-                    .Select(x => Int32.Parse(x)).ToArray();
+                var data = rawinput.Split(new char[] { ' ', '\t' }, StringSplitOptions.RemoveEmptyEntries);
+
+
+                //var rawinput = Console.ReadLine();
+               // var data = rawinput.Split(new char[] { ' ', '\t' }, StringSplitOptions.RemoveEmptyEntries)
+               //     .Select(x => Int32.Parse(x)).ToArray();
                 //Console.WriteLine(FindMissingHash(data, size));
                 //call the process 
             }
