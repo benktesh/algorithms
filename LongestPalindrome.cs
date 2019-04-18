@@ -69,6 +69,9 @@ namespace algorithms
 
         public static void RunMe()
         {
+
+            IList<IList<int>> result = new List<IList<int>>();
+
             var data = "aaaabbaa";
 
             //Console.WriteLine(LongestPalidrome(data));
@@ -79,7 +82,7 @@ namespace algorithms
             //Console.WriteLine(LongestPalidrome(data));
             //Console.WriteLine(LongestPalidrome("fyfvladzpbfudkklrwq"));
             //Console.WriteLine(LongestPalidrome("ssyoqcjomwufbdfxudzhiftak"));
-            Console.WriteLine(LongestPalidrome("jj876ykitt")); //jj
+            //Console.WriteLine(LongestPalidrome("jj876ykitt")); //jj
             //Console.WriteLine("qrrc");
         }
     
