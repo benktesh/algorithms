@@ -92,6 +92,14 @@ namespace algorithms
             }
         }
 
+        public static void PrintArray(int[] nums, int length )
+        {
+            for (int i = 0; i < length; i++)
+            {
+                Console.Write(nums[i] + " ");
+            }
+            Console.WriteLine();
+        }
         public static void PrintArray(int[,] data)
         {
             int n = data.GetLength(0);

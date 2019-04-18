@@ -96,8 +96,14 @@ namespace algorithms
             //new SubArraySum().Run();
             //new CountBSTNode().Run();
             //new BinaryTreeSumTree().Run();
+           //new NumberExpressedAsPower().Run();
+           //new AddTwoNumbers().Run();
             //new NumberExpressedAsPower().Run();
             //new DivideTwoIntegers().Run();
+           //new MedianTwoSortedArrays().Run();
+           //new RemoveDuplicates().Run();
+           //new RemoveElements().Run();
+           new RemoveLinkedListElements().Run();
 
             //Convert.ToInt32()
 
