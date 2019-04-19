@@ -104,15 +104,12 @@ namespace algorithms
            //new RemoveDuplicates().Run();
            //new RemoveElements().Run();
            //new RemoveLinkedListElements().Run();
-           new LengthOfLongestSubstring().Run();
-           //Convert.ToInt32()
-           new RemoveLinkedListElements().Run();
-
-            //Convert.ToInt32()
-
-            //new LengthOfLongestSubstring().Run();
+           //new LengthOfLongestSubstring().Run();
+           //new RemoveLinkedListElements().Run();
+           //new LengthOfLongestSubstring().Run();
             //new Subset().Run();
-            new SecondLargestBST().Run();
+           // new SecondLargestBST().Run();
+           new MaxSubArraySum().Run();  
 
 
 
