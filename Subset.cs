@@ -21,21 +21,17 @@ namespace Algorithms
                 temp.Add(new List<IList<int>> { });
                 temp[i].Add(new List<int> { });
                 temp[i][0].Add(nums[i]);
-
             }
-
             for (int i = 1; i < temp.Count; i++)
             {
                 var prev = temp[i - 1];
                 var cur = temp[i];
-
                 var ttemp = new List<IList<int>>();
 
                 //ttemp.AddRange(cur);
                 ttemp.AddRange(prev);
                 foreach (var c in cur)
                 {
-
                     foreach (var p in prev)
                     {
                         var tr = new List<int>();
@@ -46,7 +42,6 @@ namespace Algorithms
                 }
                 temp[i].AddRange(ttemp);
             }
-
             temp[nums.Length - 1].Add(new List<int> { });
 
             return temp[nums.Length - 1];
@@ -56,7 +51,7 @@ namespace Algorithms
 
         public void Run()
         {
-            var arr = new int[] {1, 2, 3};
+            var arr = new int[] {1, 1, 2};
             var result = Subsets(arr);
             foreach (var rr in result)
             {
