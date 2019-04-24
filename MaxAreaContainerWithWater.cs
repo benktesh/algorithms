@@ -8,25 +8,19 @@ namespace Algorithms
     {
         public int MaxArea(int[] height)
         {
-
             int maxArea = Int32.MinValue;
             int n = height.Length;
-            int[,] dp = new int[n + 1, n + 1];
-            for (int i = 0; i < n; i++)
-            {
-                dp[i, i] = height[i];
-            }
 
             for (int i = 0; i < n; i++)
             {
                 for (int j = i + 1; j < n; j++)
                 {
-
-                    
+                    int curMin = Math.Min(height[i], height[j]);
+                    int maxFromI = curMin * (j - i);
+                    maxArea = Math.Max(maxArea, maxFromI);
                 }
             }
             return maxArea;
-
         }
 
         public void Run()
