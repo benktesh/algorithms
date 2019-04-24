@@ -8,6 +8,35 @@ namespace Algorithms
     {
         public int MaxArea(int[] height)
         {
+            return MaxAreaShrinking(height);
+            //return MaxAreaIteratively(height);
+        }
+
+        private int MaxAreaShrinking(int[] height)
+        {
+            int l = 0;
+            int n = height.Length - 1;
+            int r = n;
+            int maxArea = Int32.MinValue;
+            while (l < r)
+            {
+                int q = height[l] > height[r] ? height[r] : height[l];
+                maxArea = Math.Max(maxArea, q * (r - l));
+                if (height[l] < height[r])
+                {
+                    l++;
+                }
+                else
+                {
+                    r--;
+                }
+            }
+
+            return maxArea;
+        }
+
+        private int MaxAreaIteratively(int[] height)
+        {
             int maxArea = Int32.MinValue;
             int n = height.Length;
 
