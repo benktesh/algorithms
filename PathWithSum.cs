@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Runtime.InteropServices.WindowsRuntime;
 using System.Text;
 
-namespace algorithms
+namespace Algorithms
 {
     public class PathWithSum
     {

@@ -75,7 +75,7 @@ namespace algorithms
             //new StringTransformation().Run();
             // new TopologicalSort().Run();
             // new LRU().Run();
-            //new LongestValidSubstring().Run();
+            // new LongestValidSubstring().Run();
             //new AllocateNumberOfPages().Run();
             //new SumToValue().Run();
             //new RodCutting().Run();
@@ -87,17 +87,36 @@ namespace algorithms
             //var x = MaxHeap();
             //new MedianStreaming().Run();
             //new Algorithms.Graph.Graph().Run();
-           // new AssignmentOfObjects().Run();
+            //new WordBreak().Run();
+            //new NonRepeatingElements().Run();
+            //new ConnectNodeSameLevel().Run();
+            // new AssignmentOfObjects().Run();
             //new KnapSackUnbounded().Run();
-            new MergeOverlappingInterval().Run();
-
+            //new MergeOverlappingInterval().Run();
+            //new SubArraySum().Run();
+            //new CountBSTNode().Run();
+            //new BinaryTreeSumTree().Run();
+           //new NumberExpressedAsPower().Run();
+           //new AddTwoNumbers().Run();
+            //new NumberExpressedAsPower().Run();
+            //new DivideTwoIntegers().Run();
+           //new MedianTwoSortedArrays().Run();
+           //new RemoveDuplicates().Run();
+           //new RemoveElements().Run();
+           //new RemoveLinkedListElements().Run();
+           //new LengthOfLongestSubstring().Run();
+           //new RemoveLinkedListElements().Run();
+           //new LengthOfLongestSubstring().Run();
+            //new Subset().Run();
+           // new SecondLargestBST().Run();
+           new MaxSubArraySum().Run();  
 
 
 
         }
 
-        /* This is template for making test cases **/
-        static void Template()
+    /* This is template for making test cases **/
+    static void Template()
         {
             var first = Console.ReadLine();
             int tests = 0;
@@ -138,8 +157,12 @@ namespace algorithms
                 }
 
                 var rawinput = Console.ReadLine();
-                var data = rawinput.Split(new char[] { ' ', '\t' }, StringSplitOptions.RemoveEmptyEntries)
-                    .Select(x => Int32.Parse(x)).ToArray();
+                var data = rawinput.Split(new char[] { ' ', '\t' }, StringSplitOptions.RemoveEmptyEntries);
+
+
+                //var rawinput = Console.ReadLine();
+               // var data = rawinput.Split(new char[] { ' ', '\t' }, StringSplitOptions.RemoveEmptyEntries)
+               //     .Select(x => Int32.Parse(x)).ToArray();
                 //Console.WriteLine(FindMissingHash(data, size));
                 //call the process 
             }
