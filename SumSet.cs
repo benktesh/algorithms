@@ -41,7 +41,8 @@ namespace algorithms
 
         public void Run()
         {
-            int[] numbers = { 2,4,6,8 };
+            int[] numbers = { 2,6, 4,8 };
+            Array.Sort(numbers);
             int target = 8;
 
             Sum(numbers.ToList(), target, new List<int>() );
