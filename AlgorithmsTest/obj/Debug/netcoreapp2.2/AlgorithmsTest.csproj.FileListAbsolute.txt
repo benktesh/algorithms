@@ -1,0 +1,14 @@
+C:\Users\Ben\Documents\Repo\algorithms\AlgorithmsTest\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Ben\Documents\Repo\algorithms\AlgorithmsTest\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Ben\Documents\Repo\algorithms\AlgorithmsTest\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Ben\Documents\Repo\algorithms\AlgorithmsTest\bin\Debug\netcoreapp2.2\AlgorithmsTest.deps.json
+C:\Users\Ben\Documents\Repo\algorithms\AlgorithmsTest\bin\Debug\netcoreapp2.2\AlgorithmsTest.runtimeconfig.json
+C:\Users\Ben\Documents\Repo\algorithms\AlgorithmsTest\bin\Debug\netcoreapp2.2\AlgorithmsTest.runtimeconfig.dev.json
+C:\Users\Ben\Documents\Repo\algorithms\AlgorithmsTest\bin\Debug\netcoreapp2.2\AlgorithmsTest.dll
+C:\Users\Ben\Documents\Repo\algorithms\AlgorithmsTest\bin\Debug\netcoreapp2.2\AlgorithmsTest.pdb
+C:\Users\Ben\Documents\Repo\algorithms\AlgorithmsTest\obj\Debug\netcoreapp2.2\AlgorithmsTest.csprojAssemblyReference.cache
+C:\Users\Ben\Documents\Repo\algorithms\AlgorithmsTest\obj\Debug\netcoreapp2.2\AlgorithmsTest.csproj.CoreCompileInputs.cache
+C:\Users\Ben\Documents\Repo\algorithms\AlgorithmsTest\obj\Debug\netcoreapp2.2\AlgorithmsTest.AssemblyInfoInputs.cache
+C:\Users\Ben\Documents\Repo\algorithms\AlgorithmsTest\obj\Debug\netcoreapp2.2\AlgorithmsTest.AssemblyInfo.cs
+C:\Users\Ben\Documents\Repo\algorithms\AlgorithmsTest\obj\Debug\netcoreapp2.2\AlgorithmsTest.dll
+C:\Users\Ben\Documents\Repo\algorithms\AlgorithmsTest\obj\Debug\netcoreapp2.2\AlgorithmsTest.pdb

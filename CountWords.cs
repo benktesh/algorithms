@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace algorithms
+namespace Algorithms
 {
     /// <summary>
     /// Given an array of n words. Some words are repeated twice, we need count such words.
